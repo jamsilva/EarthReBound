@@ -383,7 +383,7 @@ l_0xc76b0a:
     eob
 
 l_0xc76b0b:
-    "@I've been playing <MOTHER 2> lately...{pause(20)}  I'm having a tough time." end
+    "@I've been playing <EarthBound> lately...{pause(20)}  I'm having a tough time." end
 
 l_0xc76b36:
     "@So you've traveled all over the world." next

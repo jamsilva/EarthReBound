@@ -93,7 +93,7 @@ l_0xc93be3:
     "@But I'm near-sighted, too..." end
 
 l_0xc93c38:
-    "[19 10 01]{rtoarg}@My grandson is playing a game called <MOTHER 2.>" next
+    "[19 10 01]{rtoarg}@My grandson is playing a game called <EarthBound.>" next
     "@He's now talking to a plain,{pause(15)} old lady in Twoson." next
     "@I heard that the game has some messages that are just there for fun." end
 

@@ -118,9 +118,8 @@ resources:
     Logos/GasStation2: Logos/GasStation2.png, Logos/GasStation3: Logos/GasStation3.png,
     Logos/HALKEN: Logos/HALKEN.png, Logos/Nintendo: Logos/Nintendo.png, Logos/PresentedBy: Logos/PresentedBy.png,
     Logos/ProducedBy: Logos/ProducedBy.png, TownMaps/Fourside: TownMaps/Fourside.png,
-    TownMaps/Onett: TownMaps/Onett.png, TownMaps/Scarabia: TownMaps/Scarabia.png,
-    TownMaps/Summers: TownMaps/Summers.png, TownMaps/Threed: TownMaps/Threed.png,
-    TownMaps/Twoson: TownMaps/Twoson.png, TownMaps/icons: TownMaps/icons.png}
+    TownMaps/Onett: TownMaps/Onett.png, TownMaps/Scaraba: TownMaps/Scaraba.png, TownMaps/Summers: TownMaps/Summers.png,
+    TownMaps/Threed: TownMaps/Threed.png, TownMaps/Twoson: TownMaps/Twoson.png, TownMaps/icons: TownMaps/icons.png}
   eb.DoorModule: {map_doors: map_doors.yml}
   eb.EnemyModule: {BattleSprites/001: BattleSprites/001.png, BattleSprites/002: BattleSprites/002.png,
     BattleSprites/003: BattleSprites/003.png, BattleSprites/004: BattleSprites/004.png,

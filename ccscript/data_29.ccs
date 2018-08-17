@@ -231,10 +231,10 @@ l_0xc731bc:
     "@I'm sad 'cause I only got this short message." end
 
 l_0xc731f0:
-    "[06 49 00 {e(l_0xc73217)}]@I wonder if <MOTHER 2> has been released yet." end
+    "[06 49 00 {e(l_0xc73217)}]@I wonder if <EarthBound> has been released yet." end
 
 l_0xc73217:
-    "@Listen to this!{pause(20)}  I finished MOTHER 2!" end
+    "@Listen to this!{pause(20)}  I finished EarthBound!" end
 
 l_0xc73236:
     "@Hi!" next
