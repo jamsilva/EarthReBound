@@ -75,11 +75,9 @@ l_0xc7c55d:
 l_0xc7c57d:
     call(data_49.l_0xc915f4) "{sound(37)}{pause(90)}" eob
 
-l_0xc7c588:
-    "[06 94 02 {e(data_25.l_0xc6bef9)}]@Who are you talking to?" end
+l_0xc7c588: eob
 
-l_0xc7c59e:
-    "[06 B0 01 {e(data_09.l_0xc58ebb)}]@No problem here." end
+l_0xc7c59e: eob
 
 l_0xc7c5b0:
     "[19 19 00 00]{store_registers}" call(data_36.l_0xc7dc85) "{load_registers}{swap}" eob

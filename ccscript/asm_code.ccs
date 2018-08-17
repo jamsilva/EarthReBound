@@ -1,6 +1,20 @@
 import asm65816
 
-/*Lower HP/PP windows by one tile */
+/* This portion is based on the New Controls patch at https://www.romhacking.net/hacks/1111 */
+/* Skip the 'Talk To' command in the menu (branch with value 1)... */
+/* Then reorder cases 2, 3, 4, 5, 6 to 1, 3, 2, 5, 4 */
+/* The 'Talk To' and 'Check' text was removed in l_0xc7c588 and l_0xc7c59e */
+ROM[0xC134E1] = { NOP NOP NOP NOP NOP }
+ROM[0xC134E7] = byte [0] 0x01
+ROM[0xC134F4] = byte [0] 0x02
+ROM[0xC13504] = byte [0] 0x04
+
+/* Change PSI Rockin to PK Rockin */
+ROM[0xC1C415] = byte [0] 0x26
+ROM[0xC1FE3D] = byte [0] 0x80
+ROM[0xC1FE42] = byte [0] 0x7B
+
+/* Lower HP/PP windows by one tile */
 ROM[0xC2044C] = LDA_i(0x0013)
 ROM[0xC20453] = LDA_i(0x0014)
 ROM[0xC20856] = LDY_i(9)
@@ -8,14 +22,8 @@ ROM[0xC21412] = ADC_i(0x80)
 ROM[0xC3E738] = ADC_i(0x82BE)
 ROM[0xC435BF] = ADC_i(0x84BE)
 
-
-/*Change PSI Rockin to PK Rockin */
-ROM[0xC1C415] = byte [0] 0x26
-ROM[0xC1FE3D] = byte [0] 0x80
-ROM[0xC1FE42] = byte [0] 0x7B
-
-// Rename Poo's master to Yi-Si-Qi in the Credits
-ROM[0xC4EA4C] = "[EA EA EA EA]"
+/* Rename Poo's master to Yi-Si-Qi in the Credits */
+ROM[0xC4EA4C] = { NOP NOP NOP NOP }
 ROM[0xC4EA60] = ASMLoadAddress12 (poo_master) // Poo's master
 
 poo_master:
